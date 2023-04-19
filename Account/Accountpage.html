@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <!--<link rel="stylesheet" type="text/css" href="Accountpage.css" />-->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap" rel="stylesheet">
+    <title>Sign-up</title>
+  </head>
+  <body>
+    <header id="accountHeader">
+      <nav class="navbar">
+        <button class= "navbutton" onmouseover="display_candy()"> Candy
+          <div class="dropdown-content1">
+          <a href="/lollipop/lollipops.html" class="loll1" id="choice">lollipops</a>
+          <a href="/chocolate/Chocolate.html" class="choc1" id="choice">Chocolate</a>
+          <a href="/gummy/gummy.html" class="gumm1" id="choice">Gummy Bear</a>
+          <a href="/hardrock/hardrock.html" class="rock1" id="choice">Rock Candy</a>
+          <a href="/Boujee/boujee.html" class="bouj1" id="choice">Boujee Candy</a>
+        </div>
+      </button>
+        <button class= "navbutton" onclick="location.href='/homepage/homepage.html'">Home</button>
+        <button class= "navbutton" onclick="location.href='/Treat Box/treat_box.html'">Treatbox</button>
+        <button class= "navbutton" onclick="location.href='/International Candy/internationalpage.html'">International</button>
+        <button class= "navbutton" onclick="location.href='/Mix-n-match/mixnmatch.html'">Mix-n-Match</button>
+        <button class= "navbutton" onclick="location.href='/Account/Accountpage.html'">Sign-up</button>
+      </nav>
+      <h1>Sign-Up</h1>
+      <p>Sign up with us for exclusive offers</p>
+    </header>
+    <main>
+      <div id="backimage"></div>
+      <div class="accountForm">
+        <div id="accountBox">
+          <div id="icondiv">
+      
+            <div class="iconbox"><i class="fa fa-user-circle" aria-hidden="true"></i></div><br>
+
+            <div><caption>Sign Up and be apart of the Sweet Teeth community</caption><br></div>
+          </div>
+          
+          <form action="">
+            <label for ="firstname">First name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="eg: John" title="First name upto 50 characters"
+             required="required"></input>
+            <br>
+            <label for="lastname">Last name</label>
+            <input type="text" name="lastname" id ="lastname" placeholder="eg: Doe" title="Last name upto 50 characters"
+             required="required">
+            <br>
+            <label for="email">Email Ad.</label>
+            <input type="text" name="email" id="email" placeholder="eg: John.doe@gmail.com" required="required"></input>
+            <br>
+            <label for="phone">Telephone</label>
+            <input type="text" name="phone" id ="phone"  title="Valid phone number 10 characters"
+            pattern="[0-9]{10}" placeholder="eg: +1-647672875"></input>
+            <br>
+            <label for="address">Home Ad.</label>
+            <input type="text" name="address" id = "address" placeholder="Address"></input>
+          </br>
+          <div id="centerbutton">
+            <input class="signup_button" type= "submit" value="Sign-Up" name="submit" onclick="storage()"></input>
+          </div>
+          </form>
+      </div>
+      </div>
+      <footer class="footer">
+        <p class="footer_hover mobile_hover">+1-647-8642816</p>
+        <p class="footer_hover email_hover">Sweetteeth@gmail.com</p>
+        <p class="footer_hover trademark_hover">Sweet Teeth &#8482;</p>
+        <p class="footer_hover home_hover">Home</p>
+        <p class="footer_hover instagram_hover">Instagram</p>
+        <p class="footer_hover twitter_hover">Twitter</p>
+  
+        <span class="footer_icons mobile" onmouseover="display_mobile()" onmouseout="reverse_display_mobile()">&#9990;</span>
+        <span class="footer_icons email" onmouseover="display_email()" onmouseout="reverse_display_email()">&#9993;</span>
+        <span class="footer_icons home" onmouseover="display_home()" onmouseout="reverse_display_home()" onclick="location.href=`/homepage/homepage.html`" style="cursor: pointer;">&#10070;</span>
+        <span class="footer_icons trademark" onmouseover="display_trademark()" onmouseout="reverse_display_trademark()">&#169;</span>
+        <span><i class="fa fa-instagram" onmouseover="display_instagram()" onmouseout="reverse_display_instagram()" onclick="location.href=`https://www.instagram.com/`" style="font-size: 42.5px; cursor: pointer"></i></span>
+        <span><i class="fa fa-twitter"onmouseover="display_twitter()" onmouseout="reverse_display_twitter()" onclick="location.href='https://twitter.com/?lang=en'" style="font-size: 42.5px; cursor: pointer"></i></span>
+        <iframe
+          width="1500px"
+          height="300px"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="//www.openstreetmap.org/export/embed.html?bbox=-98.61187422743545%2C43.76697940199725%2C-65.6025556446657%2C43.63057765827217&amp;layer=mapnik&amp;marker=43.6534817%2C -79.3839347"
+          style="border: 1px solid #e6bed2"
+        ></iframe>
+      </footer>
+    </main>
+    <script src="Accountpage.js"></script>
+  </body>
+</html>

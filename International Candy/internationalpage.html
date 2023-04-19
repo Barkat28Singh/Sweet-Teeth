@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap" rel="stylesheet">
+    <title>International</title>
+    <header>
+      <nav class="navbar">
+        <button class="navbutton" onmouseover="display_candy()"> Candy
+          <div class="dropdown-content1">
+          <a href="/lollipop/lollipops.html" class="loll1" id="choice">lollipops</a>
+          <a href="/chocolate/Chocolate.html" class="choc1" id="choice">Chocolate</a>
+          <a href="/gummy/gummy.html" class="gumm1" id="choice">Gummy Bear</a>
+          <a href="/hardrock/hardrock.html" class="rock1" id="choice">Rock Candy</a>
+          <a href="/Boujee/boujee.html" class="bouj1" id="choice">Boujee Candy</a>
+        </div>
+      </button>
+        <button class="navbutton" onclick="location.href='/homepage/homepage.html'">Home</button>
+        <button class="navbutton" onclick="location.href='/Treat Box/treat_box.html'">Treatbox</button>
+        <button class="navbutton" onclick="location.href='/International Candy/internationalpage.html'">International</button>
+        <button class="navbutton" onclick="location.href='/Mix-n-match/mixnmatch.html'">Mix-n-Match</button>
+        <button class="navbutton" onclick="location.href='/Account/Accountpage.html'">Sign-up</button>
+      </nav>
+    <img class ="Banner" src="/International Candy/internationalimages/internationalbanner.png"></img>
+    </header>
+  </head>
+  <body>
+    <div class="pickerarea">
+      <div class="droplist">
+        <select onchange="candyChange()" name="Countries" id="countries">
+          <option selected disabled>Pick a Country</option>
+          <option value="Caribbean">Caribbean</option>
+          <option  value="India">India</option>
+          <option value="Japan">Japan</option>
+        </select>
+      </div>
+    </div>
+    
+    <div id="caribCandies">
+    <div class = "arrange">
+        <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/bonbonbum.png" alt=""></img>
+            </div>
+            <p class="description">Bon bon bum: $4.00 </p> 
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails()" id="infobtn">Details</button>
+            <div class="candydetailsbox">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/bonbonbum.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>These Bon Bon Bubble Gum Suckers are made in Columbia with pure cane sugar. They are very good with a pale pink soft bubble gum centre. Basically 3 flavours red & pink are both strawberry flavour.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(0)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/busta.png" alt=""></img>
+            </div>
+            <p class="description">Busta: $3.50</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails1()" id="infobtn">Details</button>
+            <button onclick = "clicked(1)">Add to Cart</button>
+            <div class="candydetailsbox1">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/busta.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>This candy is also called Bustamante Backbone or Stagga Back. It's a hard candy made of wet sugar, coconut, ginger,
+                     and lime juice or cream of tartar. Busta is said to have been named in honour of the Jamaican national hero whose sir
+                     name is mentioned above.</p>
+                </div>
+              </div>
+                </div>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/catch.png" alt=""></img>
+            </div>
+            <p class="description">Catch: $6.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails2()" id="infobtn">Details</button>
+            <div class="candydetailsbox2">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/catch.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Catch Chocolate Bar is a candy bar which contains soft caramel and crisped rice wrapped in milk chocolate. Yummy Caribbean chocolate goodness.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(2)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/Coconut Drops.png" alt=""></img>
+            </div>
+            <p class="description">Coconut Drops: $3.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails3()" id="infobtn">Details</button>
+            <div class="candydetailsbox3">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/Coconut Drops.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Jamaican coconut drops are a traditional Jamaican dessert that it's a perfect treat for every occasion.
+                     These are sweet, chewy, and full of unique texture. The soft and chewy coconut pieces and the gummy texture
+                    of the toffee are utterly divine.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(3)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+    </div>
+    <div class = "arrange">
+        <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/gratercake.png" alt=""></img>
+            </div>
+            <p class="description">Grater Cake: $5.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails4()" id="infobtn">Details</button>
+            <div class="candydetailsbox4">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/gratercake.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Jamaican Grater Cake is not a cake rather it is a candy. Simply made with coconut, 
+                     sugar and flavouring, very basic ingredients. It is sweet,
+                     rich and creamy all at the same time.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(4)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/Tamarindball.png" alt=""></img>
+            </div>
+            <p class="description">Tamarind Ball: $2.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails5()" id="infobtn">Details</button>
+            <div class="candydetailsbox5">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/Tamarindball.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Tamarinds balls are a Caribbean delicacy, these sweet and sour bitesize treats are made using only 3 ingredients.
+                     You simply roll fresh tamarind pulp into balls then dust them with sugar.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(5)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/peppermintcandy.png" alt=""></img>
+            </div>
+            <p class="description">Peppermint: $3.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails6()" id="infobtn">Details</button>
+            <div class="candydetailsbox6">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/peppermintcandy.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Colombina Jumbo Mint Balls individually wrapped jumbo red and white swirled mint hard candy balls. Packing a refreshing peppermint punch,
+                     handy to have in your pocket for when you crave for something sweet after lunch or dinner!</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(6)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/sweetie.png" alt=""></img>
+            </div>
+            <p class="description">Sweetie: $4.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails7()" id="infobtn">Details</button>
+            <div class="candydetailsbox7">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/sweetie.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Sweetie offers a taste of paradise with rich, bold sweeties that satisfy the sweet tooth of Caribbean people 
+                     and Caribbean people at heart.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(7)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+    </div>
+    <div class = "arrange">
+        <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/Richardchocolate (2).png" alt=""></img>
+            </div>
+            <p class="description">Richard bar: $6.30</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails8()" id="infobtn">Details</button>
+            <div class="candydetailsbox8">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/Richardchocolate (2).png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Made from roasted and ground cacao seed kernels that is available as a liquid, solid,
+                     or paste, either on its own or as a flavoring agent in other foods</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(8)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/guavacheese.png" alt=""></img>
+            </div>
+            <p class="description">Guava Cheese: $1.30</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails9()" id="infobtn">Details</button>
+            <div class="candydetailsbox9">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/guavacheese.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Guava cheese is one of the most commonly prepared sweets in most Catholic households for Christmas. 
+                     It is chewy and yet a melt in the mouth kind of fudge if prepared correctly.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(9)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/caribbeantreasure.png" alt=""></img>
+            </div>
+            <p class="description">Treasure candy: $10.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails10()" id="infobtn">Details</button>
+            <div class="candydetailsbox10">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/caribbeantreasure.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>A soft and sweet, chewy treat. </p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(10)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/gingercuts.png" alt=""></img>
+            </div>
+            <p class="description">Ginger cuts: $6.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails11()" id="infobtn">Details</button>
+            <div class="candydetailsbox11">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/gingercuts.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Jamaican Choice Ginger Cuts are individually wrapped hard candy made with real ginger oil, 
+                     it can be spicy as ginger inherently has a heat to it.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(11)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+    </div>
+    </div>
+    </div>
+
+    <div id="indianCandies">
+    <div class = "arrange2">
+      <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/soanpapdi.png" alt=""></img>
+          </div>
+          <p class="description">Soan Papdi: $3.00 </p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails12()" id="infobtn">Details</button>
+          <div class="candydetailsbox12">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/soanpapdi.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Soan papdi is a popular dessert in the Indian subcontinent.It is usually cube-shaped or served as flakes, and has a crisp and flaky texture.</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(12)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+        <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Kaju Katli.png" alt=""></img>
+          </div>
+          <p class="description">Kaju Katli: $2.50</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails13()" id="infobtn">Details</button>
+          <div class="candydetailsbox13">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Kaju Katli.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Kaju katli, also known as kaju barfi, is an Indian dessert similar to a barfi. Kaju means cashew; barfi is often made by thickening milk with sugar and other ingredients.</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(13)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+        <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/chikki.png" alt=""></img>
+          </div>
+          <p class="description">Peanut Chikki: $1.00</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails14()" id="infobtn">Details</button>
+          <div class="candydetailsbox14">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/chikki.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Chikki is a traditional Indian sweet candy like brittle made with jaggery, nuts and seeds.</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(14)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+        <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Imarti.png" alt=""></img>
+          </div>
+          <p class="description">Imarti: $2.00</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails15()" id="infobtn">Details</button>
+          <div class="candydetailsbox15">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Imarti.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Imarti is a sweet from India. It is made by deep-frying vigna mungo flour batter in a circular flower shape, then soaking in sugar syrup. </p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(15)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+  </div>
+  <div class = "arrange2">
+      <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Petha.png" alt=""></img>
+          </div>
+          <p class="description">Petha: $4.00</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails16()" id="infobtn">Details</button>
+          <div class="candydetailsbox16">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Petha.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Petha is a translucent soft candy from the Indian subcontinent made from ash gourd or white pumpkin.</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(16)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+        <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Laddu.png" alt=""></img>
+          </div>
+          <p class="description">Laddu: $2.00</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails17()" id="infobtn">Details</button>
+          <div class="candydetailsbox17">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Laddu.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Laddu or laddoo is a spherical sweet originating from India and spread through the Indian subcontinent.
+                  Laddus are often made of gram flour but can also be made with semolina.
+                </p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(17)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+        <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Pan Pasand.png" alt=""></img>
+          </div>
+          <p class="description">Pan Pasand: $3.00</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails18()" id="infobtn">Details</button>
+          <div class="candydetailsbox18">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Pan Pasand.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Pan Pasand is a traditional Indian candy that is a favourite among all age groups – it is a hit with both kids and adults!</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(18)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+        <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Peda.png" alt=""></img>
+          </div>
+          <p class="description">Peda: $4.30</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails19()" id="infobtn">Details</button>
+          <div class="candydetailsbox19">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Peda.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Peda or Pera is a sweet dish hailing from the Indian subcontinent. Usually prepared in thick, semi-soft, its main ingredients are khoa, sugar and traditional flavorings including cardamom seeds, pistachio nuts and saffron.</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(19)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+  </div>
+  <div class = "arrange2">
+      <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Mysore Pak.png" alt=""></img>
+          </div>
+          <p class="description">Mysore Pak: $4.30</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails20()" id="infobtn">Details</button>
+          <div class="candydetailsbox20">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Mysore Pak.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Mysore pak is an Indian sweet prepared in ghee. It is made of generous amounts of ghee, sugar, gram flour, and often cardamom.</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(20)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+        <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Parle Kismi.png" alt=""></img>
+          </div>
+          <p class="description">Parle Kismi: $2.30</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails21()" id="infobtn">Details</button>
+          <div class="candydetailsbox21">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Parle Kismi.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Parle Kismi Candy is a caramel-based sweet candy with a mix of cardamom in it. It has been popular in India atleast for a few decades if not longer..</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(21)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+        <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Laddus.png" alt=""></img>
+          </div>
+          <p class="description">Laddus: $3.00</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails22()" id="infobtn">Details</button>
+          <div class="candydetailsbox22">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Laddus.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>A quintessential Indian sweet savoured at every festival.</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(22)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+        <div class="both">
+          <div class="circles">
+            <img class="pic" src="/International Candy/internationalimages/Rani imli goli.png" alt=""></img>
+          </div>
+          <p class="description">Rani Imli Goli: $6.00</p>
+        </div>
+        <div class="margining">
+          <button type="button" onclick="showDetails23()" id="infobtn">Details</button>
+          <div class="candydetailsbox23">
+            <div class="candyinfo">
+              <div id="candydescpicbox">
+                <img id="descpic" src="/International Candy/internationalimages/Rani imli goli.png" alt="">
+              </div>
+              <div id="candydescbox" >
+                <p>Goli is a type of candy made from fruits combined with delectable spices. It is often described as being chewy, and it is normally sold in small containers.</p>
+              </div>
+            </div>
+              </div>
+          <button onclick = "clicked(23)">Add to Cart</button>
+          <div class="count">0</div>
+          <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+              <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+              <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+              <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+            </g>
+          </svg></div>
+        </div>
+  </div>
+    </div>
+    <div id="japanCandies">
+      <div class = "arrange3">
+        <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/Sodacandy.png" alt=""></img>
+            </div>
+            <p class="description">Ramune Soda: $2.00 </p>
+            </div>
+            <div class="margining">
+              <button type="button" onclick="showDetails24()" id="infobtn" name="jap1">Details</button>
+              <div class="candydetailsbox24">
+                <div class="candyinfo">
+                  <div id="candydescpicbox">
+                    <img id="descpic" src="/International Candy/internationalimages/Sodacandy.png" alt="">
+                  </div>
+                  <div id="candydescbox" >
+                    <p>In Japan, ramune is a popular citrus-flavored carbonated beverage.
+                       The drink is traditionally sold in a glass bottle which has been sealed with a marble. 
+                       Once the marble is removed from the opening of the bottle, the soda will then burst through and foam up. 
+                       These fizzy sweets are a popular kind of Japanese candy and have the same taste as the traditional citrusy Japanese soda.</p>
+                  </div>
+                </div>
+                  </div>
+              <button onclick = "clicked(24)">Add to Cart</button>
+              <div class="count">0</div>
+              <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+                <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                  <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                  <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                  <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+                </g>
+              </svg></div>
+            </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/Fujiya Milky Candies.png" alt=""></img>
+            </div>
+            <p class="description">Fujiya Milky: $2.50</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails25()" id="infobtn">Details</button>
+            <div class="candydetailsbox25">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/Fujiya Milky Candies.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Indulge your sweet tooth with Fujiya Milly Candies, a popular candy snack from Japan with more than 70 years of history.
+                     Made with premium Japanese ingredients including natural spring water near Mt. Fuji and condensed milk from Hokkaido, 
+                     famous for their high-quality dairy products, these rich and creamy tasting chewy candies are also free from colorings 
+                     and fragrances.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(25)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/meijigummycandy.png" alt=""></img>
+            </div>
+            <p class="description">Meiji Gummy: $1.30</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails26()" id="infobtn">Details</button>
+            <div class="candydetailsbox26">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/meijigummycandy.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Meiji Fruit Gummy Candy Grape Flavor combines the sweet and sour flavor from real grape juice concentrated into each gummy.
+                    These grape shaped Japanese gummies have a chewy and elastic texture and are packed with delicious natural grape juice.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(26)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/konpeito.png" alt=""></img>
+            </div>
+            <p class="description">Konpeito: $3.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails27()" id="infobtn">Details</button>
+            <div class="candydetailsbox27">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/konpeito.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Konpeito is a tiny sugar lump repeatedly coated with sugar-based syrup. To produce this snack, 
+                     the sugar lumps are heated slowly in a large inclined rotating pot called “dora” and by applying the syrup drop by drop, 
+                     it eventually turns to a ball with a number of horny prongs.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(27)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+    </div>
+    <div class = "arrange3">
+        <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/hichew.png" alt=""></img>
+            </div>
+            <p class="description">HiChew: $4.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails28()" id="infobtn">Details</button>
+            <div class="candydetailsbox28">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/hichew.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Each flavor includes a mixture of three fruit juices to enhance its juiciness. In addition, the amount of fruit puree has doubled, so you can enjoy
+                     a greater burst of fruits than ever before. In addition to these lovely features, do not forget to enjoy the candy’s 
+                     unique chewy texture.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(28)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/Popin’ Cookin’ Candy.jpg" alt=""></img>
+            </div>
+            <p class="description">Popin’ Cookin’: $12.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails29()" id="infobtn">Details</button>
+            <div class="candydetailsbox29">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/Popin’ Cookin’ Candy.jpg" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>This snack is an intellectual training kit for small children that allows them to make candies that are visually reminiscent of popular foods
+                     available at omatsuri (Japanese festival) sites. Further, this DIY candy kit is free of synthetic colorants and preservatives.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(29)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/pocky.png" alt=""></img>
+            </div>
+            <p class="description">Pocky: $3.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails30()" id="infobtn">Details</button>
+            <div class="candydetailsbox30">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/pocky.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>This Strawberry Pocky is made with whole wheat cocoa pretzel sticks coated with strawberry chocolate cream. 
+                     The cream is made with hand-picked natural strawberries that have been cultivated without using any chemical fertilizers.
+                     The whole wheat cocoa pretzels are then double-coated with this delicious strawberry cream.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(30)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/blackthunder.png" alt=""></img>
+            </div>
+            <p class="description">Black Thunder: $4.30</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails31()" id="infobtn">Details</button>
+            <div class="candydetailsbox31">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/blackthunder.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Black Thunder is a long-selling Japanese snack with a crispy texture and rich, sweet chocolate taste.
+                     The bar is filled with bits of plain and chocolate biscuits as well as rice puffs coated with chocolate.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(31)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+    </div>
+    <div class = "arrange3">
+        <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/meiji.png" alt=""></img>
+            </div>
+            <p class="description">Meiji Almond: $2.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails32()" id="infobtn">Details</button>
+            <div class="candydetailsbox32">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/meiji.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>A best-selling snack from one of Japan’s leading chocolate manufacturers, Meiji Almond Chocolate are almonds covered in chocolate, presented in a value pack of 10 boxes, 
+                    perfect for sharing with friends and family! Almond Chocolate is Meiji’s number one selling chocolate nut product.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(32)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/umeboshi.png" alt=""></img>
+            </div>
+            <p class="description">Umeboshi: $2.30</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails33()" id="infobtn">Details</button>
+            <div class="candydetailsbox33">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/umeboshi.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>An unique hard candy which reproduces the umeboshi (pickled Japanese plum) flavor and the texture of it's seed.
+                     Designed to keep the flavor long-lasting: the longer you eat it, the more umeboshi taste it releases.</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(33)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/Chocolate strawberries.png" alt=""></img>
+            </div>
+            <p class="description">Chocolate berries: $4.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails34()" id="infobtn">Details</button>
+            <div class="candydetailsbox34">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/Chocolate strawberries.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>Super tasty freeze-dried strawberries covered with a fine layer of delicious white chocolate!
+
+                    The acid taste from the strawberry pairs well with the sweet white chocolate.
+                    
+                    The soft texture chocolate coating also combines well with the crunchy freeze-dried strawberry from inside..</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(34)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+          <div class="both">
+            <div class="circles">
+              <img class="pic" src="/International Candy/internationalimages/melon.png" alt=""></img>
+            </div>
+            <p class="description">Nobel Melon: $6.00</p>
+          </div>
+          <div class="margining">
+            <button type="button" onclick="showDetails35()" id="infobtn">Details</button>
+            <div class="candydetailsbox35">
+              <div class="candyinfo">
+                <div id="candydescpicbox">
+                  <img id="descpic" src="/International Candy/internationalimages/melon.png" alt="">
+                </div>
+                <div id="candydescbox" >
+                  <p>This is one of the varieties of "Ore no Milk" candies, or Nobel's major candy brand famous for its super rich milk flavor.
+                     The candy contains real melon juice harvested in Hokkaido. The rich milk flavor combined with the sweet and savory flavor 
+                     of the red pulp melon makes this milk candy sweeter and tastier!</p>
+                </div>
+              </div>
+                </div>
+            <button onclick = "clicked(35)">Add to Cart</button>
+            <div class="count">0</div>
+            <div class="shopp_img" onclick="location.href='/Shopping cart/shopping_cart.html'"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-5 8 50 15">
+              <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(0 0)">
+                <path id="Path_513" data-name="Path 513" d="M13.5,28.5a3,3,0,1,1-3,3A3,3,0,0,1,13.5,28.5Z" fill="#fff"/>
+                <path id="Path_514" data-name="Path 514" d="M30,28.5a3,3,0,1,1-3,3A3,3,0,0,1,30,28.5Z" fill="#fff"/>
+                <path id="Path_515" data-name="Path 515" d="M29.159,25.5H14.533a4.5,4.5,0,0,1-4.484-3.623L7.543,9.359q-.015-.062-.025-.126L6.27,3H1.5a1.5,1.5,0,1,1,0-3h6A1.5,1.5,0,0,1,8.971,1.206L10.231,7.5H34.5a1.5,1.5,0,0,1,1.473,1.781l-2.4,12.585,0,.011A4.5,4.5,0,0,1,29.159,25.5Zm-14.639-3H29.158a1.5,1.5,0,0,0,1.47-1.2l2.059-10.8H10.831l2.16,10.791a1.5,1.5,0,0,0,1.5,1.21Z" fill="#fff"/>
+              </g>
+            </svg></div>
+          </div>
+    </div>
+      </div>
+
+      <footer class="footer">
+        <p class="footer_hover mobile_hover">+1-647-8642816</p>
+        <p class="footer_hover email_hover">Sweetteeth@gmail.com</p>
+        <p class="footer_hover trademark_hover">Sweet Teeth &#8482;</p>
+        <p class="footer_hover home_hover">Home</p>
+        <p class="footer_hover instagram_hover">Instagram</p>
+        <p class="footer_hover twitter_hover">Twitter</p>
+  
+        <span
+          class="footer_icons mobile"
+          onmouseover="display_mobile()"
+          onmouseout="reverse_display_mobile()"
+          >&#9990;</span
+        >
+        <span
+          class="footer_icons email"
+          onmouseover="display_email()"
+          onmouseout="reverse_display_email()"
+          >&#9993;</span
+        >
+        <span
+          class="footer_icons home"
+          onmouseover="display_home()"
+          onmouseout="reverse_display_home()"
+          onclick="location.href=`/homepage/homepage.html`"
+          style="cursor: pointer"
+          >&#10070;</span
+        >
+        <span
+          class="footer_icons trademark"
+          onmouseover="display_trademark()"
+          onmouseout="reverse_display_trademark()"
+          >&#169;</span
+        >
+        <span
+          ><i
+            class="fa fa-instagram"
+            onmouseover="display_instagram()"
+            onmouseout="reverse_display_instagram()"
+            onclick="location.href=`https://www.instagram.com/`"
+            style="font-size: 42.5px; cursor: pointer"
+          ></i
+        ></span>
+        <span
+          ><i
+            class="fa fa-twitter"
+            onmouseover="display_twitter()"
+            onmouseout="reverse_display_twitter()"
+            onclick="location.href='https://twitter.com/?lang=en'"
+            style="font-size: 42.5px; cursor: pointer"
+          ></i
+        ></span>
+        <iframe
+          width="1500px"
+          height="300px"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="//www.openstreetmap.org/export/embed.html?bbox=-98.61187422743545%2C43.76697940199725%2C-65.6025556446657%2C43.63057765827217&amp;layer=mapnik&amp;marker=43.6534817%2C -79.3839347"
+          style="border: 1px solid #e6bed2"
+        ></iframe>
+      </footer>
+      <script src="/International Candy/internationalpage.js"></script>
+  </body>
+</html>
